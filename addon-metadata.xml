@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+	<meta>
+		<file-type type="string">FlightGear add-on metadata</file-type>
+		<format-version type="int">1</format-version>
+	</meta>
+	
+	<addon>
+		<identifier type="string">org.flightgear.addons.HEMSGen</identifier>
+		<name type="string">HEMSGen</name>
+		<version type="string">0.1.0</version>
+		
+		<authors>
+			<author>
+				<name type="string">Benedikt Wolf</name>
+				<email type="string"></email>
+				<url type="string"></url>
+			</author>
+		</authors>
+		
+		<maintainers>
+			<maintainer>
+				<name type="string">FlightGear developers</name>
+				<url type="string">
+					https://sourceforge.net/p/flightgear/mailman/flightgear-devel/
+				</url>
+			</maintainer>
+		</maintainers>
+		
+		<short-description type="string">
+			HEMSGen (Helicopter Emergency Medical Service Response Generator)
+		</short-description>
+		
+		<long-description type="string">
+			This add-on creates randomized emergency calls for flight inspiration when flying emergency helicopters
+		</long-description>
+		
+		<license>
+			<designation type="string">
+				GNU GPL version 2 or later
+			</designation>
+			
+			<file type="string">
+				<!-- Use a relative, slash-separated path to a file under the add-on
+				base directory that contains the add-on license text. -->
+			</file>
+			
+			<url type="string">
+				https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+			</url>
+		</license>
+		
+		<min-FG-version type="string">2017.4.0</min-FG-version>
+		<max-FG-version type="string">none</max-FG-version>
+		
+		<urls>
+			
+			<code-repository type="string">
+				https://sourceforge.net/p/flightgear/fgaddon/HEAD/tree/trunk/Addons/HEMSGen/
+			</code-repository>
+		</urls>
+		
+		<tags>
+		</tags>
+		
+	</addon>
+</PropertyList>

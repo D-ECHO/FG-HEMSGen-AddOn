@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- this file requires FlightGear version 2018.2 or newer -->
+<!-- 
+    2018-12 WARNING: 
+    PUI menu items must have a globally unique label to make bindings work 
+    correctly. Bindings of all items with the same label will be triggered
+    if any of them is selected from the menu.
+-->
+<PropertyList>
+    <meta>
+        <file-type type="string">FlightGear add-on menu bar items</file-type>
+        <format-version type="int">1</format-version>
+    </meta>
+    <menubar-items>
+        <menu>
+            <label>HEMSGen</label>
+            <enabled type="bool">true</enabled>
+            
+            <item>
+                <label>New Mission Site</label>
+                <binding>
+                    <command>nasal</command>
+                    <script>hemsgen.newPosition();</script>
+                </binding>
+            </item>
+            <item>
+                <label>Settings</label>
+                <binding>
+                    <command>dialog-show</command>
+                    <dialog-name>hemsgen-settings-dialog</dialog-name>
+                </binding>
+            </item>
+            <item>
+                <label>Quiz (temp)</label>
+                <binding>
+                    <command>dialog-show</command>
+                    <dialog-name>hemsgen-quiz</dialog-name>
+                </binding>
+            </item>
+            
+            <item>
+                <label>Reload HEMSGen AddOn</label>
+                <binding>
+                    <command>addon-reload</command>
+                    <id>org.flightgear.addons.HEMSGen</id>
+                </binding>
+            </item> 
+            
+        </menu>
+    </menubar-items>
+</PropertyList>

@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<!--
+This file is part of FlightGear.
+
+FlightGear is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+FlightGear is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with FlightGear.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<PropertyList>
+	<diagnosis n="0">	<!--	Hypothermia, ship in distress	-->
+		<desc>Your patient is local fisher and was out fishing for about three hours when suddenly their boat started leaking.</desc>
+		<desc>They were able to contact the coast guard via radio and was rescued from their ship using a rope winch.</desc>
+		<desc>Now, they are apathetic, verbal responses are delayed and partly nonsensical.</desc>
+		<desc>Their pulse is 45 bpm with a blood pressure of 105/55 mmHg.</desc>
+		<w>stroke</w>
+		<w>dementia</w>
+		<w>epilepsy</w>
+	</diagnosis>
+	<diagnosis n="1">	<!--	Multiple Trauma after car/train accident	-->
+		<desc>Your patient is a business person from out of town on the way to a meeting, according to their colleague.</desc>
+		<desc>They are unconscious, reacting only vaguely to pain stimulus.</desc>
+		<desc>There is only minor bleeding visible, with bruises on their arms, head and a heamatoma on their upper abdomen.</desc>
+		<desc>The pulse is 125 bpm with a blood pressure of 90/50 mmHg.</desc>
+		<w>upper limb fracture</w>
+		<w>amputation</w>
+		<w>ectopic pregnancy</w>
+	</diagnosis>
+	<diagnosis n="2">	<!--	Whiplash after car/train accident	-->
+		<desc>Your patient is a tourist from South America, travelling through the country.</desc>
+		<desc>They are fully conscious, but says that they're feeling dizzy.</desc>
+		<desc>Primarily, they report pain in their neck region, a bad headache as well as a difficulty to move their head.</desc>
+		<desc>The pulse is 105 bpm with a blood pressure of 140/90 mmHg.</desc>
+		<w>meningitis</w>
+		<w>lower limb fracture</w>
+	</diagnosis>
+	<diagnosis n="3">	<!--	Traumatic brain injury after car/train accident	-->
+		<desc>Your patient is working with a local construction company and is on the way to work.</desc>
+		<desc>They are partly conscious, according to a witness they previously were unconscious for about 20 minutes.</desc>
+		<desc>While examining them, you find a significant difference in size between their two pupils.</desc>
+		<desc>The pulse is 45 bpm with a blood pressure of 110/60 mmHg.</desc>
+		<w>meningitis</w>
+		<w>lower limb fracture</w>
+	</diagnosis>
+	<diagnosis n="4">	<!--	Myocardial infarction	-->
+		<desc>Your patient is sitting on their couch, breathing heavily and in obvious fear of their life.</desc>
+		<desc>On initial examination, you find a rather high pulse frequency and a blood pressure of 100/70 mmHg.</desc>
+		<desc>They report that they suddenly felt a high pressure on their chest, combined with nausea.</desc>
+		<desc>The twelve-lead ECG shows an elevated ST segment.</desc>
+		<w>pulmonary embolism</w>
+		<w>chest trauma</w>
+		<w>meningitis</w>
+		<w>pneumonia</w>
+	</diagnosis>
+	<diagnosis n="5">	<!--	dummy	-->
+		<desc>n/a</desc>
+		<w>w1</w>
+		<w>w2</w>
+		<w>w3</w>
+	</diagnosis>
+	<diagnosis n="6">	<!--	dummy	-->
+		<desc>n/a</desc>
+		<w>w1</w>
+		<w>w2</w>
+		<w>w3</w>
+	</diagnosis>
+	<diagnosis n="7">	<!--	dummy	-->
+		<desc>n/a</desc>
+		<w>w1</w>
+		<w>w2</w>
+		<w>w3</w>
+	</diagnosis>
+	<diagnosis n="8">	<!--	dummy	-->
+		<desc>n/a</desc>
+		<w>w1</w>
+		<w>w2</w>
+		<w>w3</w>
+	</diagnosis>
+	<diagnosis n="9">	<!--	dummy	-->
+		<desc>n/a</desc>
+		<w>w1</w>
+		<w>w2</w>
+		<w>w3</w>
+	</diagnosis>
+	<diagnosis n="10">	<!--	dummy	-->
+		<desc>n/a</desc>
+		<w>w1</w>
+		<w>w2</w>
+		<w>w3</w>
+	</diagnosis>
+	<diagnosis n="11">	<!--	Hypothermia, hikers	-->
+		<desc>Your patient was out in the wild hiking with his friends.</desc>
+		<desc>After losing orientation, they spent way more time outside than planned while not equipped properly.</desc>
+		<desc>Now, they are apathetic, verbal responses are delayed and partly nonsensical.</desc>
+		<desc>Their pulse is 50 bpm with a blood pressure of 100/60 mmHg.</desc>
+		<w>stroke</w>
+		<w>dementia</w>
+		<w>epilepsy</w>
+	</diagnosis>
+	<diagnosis n="12">	<!--	dummy	-->
+		<desc>n/a</desc>
+		<w>w1</w>
+		<w>w2</w>
+		<w>w3</w>
+	</diagnosis>
+</PropertyList>
